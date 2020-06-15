@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Indie+Flower&family=Libre+Barcode+128+Text&family=Marvel&family=Permanent+Marker&family=Roboto&family=Rubik&family=Sacramento&family=Work+Sans&display=swap');
+
+h1 {
+    font-family: 'Marvel';
+    font-size: 48px;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Bangers';
+    color: blue;
+}
+
+.cabecera {
+    background-color: rgba(138, 43, 226, 0.8);
+    border: 5px solid blue;
+    font-family: 'Bangers';
+    font-size: 36px;
+    color: white;
+
+}
+
+.seccion {
+    height: 50%;
+    border: 10px solid red;
+    margin: 10px;
+}
