@@ -1,0 +1,11 @@
+input:hover {
+    background-color: pink;
+}
+
+input:focus {
+    background-color: red;
+}
+
+body p:nth-child(2) {
+    background-color: yellow;
+}

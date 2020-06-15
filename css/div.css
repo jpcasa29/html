@@ -1,0 +1,36 @@
+.caja1 {background-color: red;}
+.caja2 {background-color: blue;}
+.caja3 {background-color: green;}
+
+.caja1, .caja2, .caja3 {
+    margin: 20px 0;
+    color: white;
+}
+
+p span:hover {
+    background-color: turquoise;
+    color: red;
+}
+
+/* forma larga de escribir border
+.articulo1 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+}
+*/
+
+.articulo1 {
+    border: 3px solid red;
+}
+
+.articulo2 {
+    background-color: green;
+    padding: 5%;
+}
+
+.articulo3 {
+    margin: 15px;
+    background-color: violet;
+    box-sizing: border-box;
+}
