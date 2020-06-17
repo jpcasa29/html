@@ -5,6 +5,72 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(242, 244, 246);
+    font-family: 'Roboto';
+    margin: 0px;
+    padding-top: 100px;
+    
+}
+.encabezado{
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    height: 100px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 15px 21px -5px rgba(0,0,0,0.75);
+}
+
+.div1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+    height: 100%;
+}
+.div2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    float: right;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+    text-align: right;
+    font-family: 'Bangers';
+    font-size: 24px;
+    
+}
+
+.lincHeader {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+.lincHeader:hover {
+    font-size: 26px;
+}
+.imgheader {
+    box-sizing: border-box;
+    width: 3%;
+    height: 40%;
+    float: right;
+    margin: 0px 5px;
+    padding-left: 3px;
+}
+
+header div img {
+    width: 50%;    
+    height: 100%;
+    float: left;
+    margin-left: 40px;
+}
+
 .caja1 {background-color: red;}
 .caja2 {
     background-color: blue;
